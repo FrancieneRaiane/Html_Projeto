@@ -1,0 +1,115 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    margin: 0;
+    padding: 0;
+    background-image: url('img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004080; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #ffd700;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo */
+section#conteudo {
+    padding: 20px;
+    /*background-color: white;*/
+}
+
+h2, h3 {
+    color: yellow;
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #bb2121;
+    border-radius: 15px;  
+}
+
+/* Rodapé */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table{
+    border:solid #ffd700 ; 
+    border-radius: 15px;
+}
+td {
+    border:double #ffd700 ;   
+    color: rgb(174, 0, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.quadrado{
+    display:inline-block ;
+    width: 100px;
+    height:100px;
+    border:solid #ffd700 ; 
+    border-radius:10px;
+}
+#q1{
+    background-color:blue;
+    border-radius: 50%; /* agora é um circulo*/
+    margin-right:12px
+}
+#q2{
+    background-color: rgb(255, 0, 221);
+    animation: girar 5s infinite linear;
+}
+
+@keyframes girar{
+    0%{
+        transform: rotate (0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#q3{
+    margin-right:12px;
+    background-color: rgb(255, 0, 221);
+    animation: girar 5s infinite linear;
+}
+#in{
+    animation: andar 5s infinite alternate linear;
+}
+@keyframes andar{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(400px);
+    }
+}
+
+
