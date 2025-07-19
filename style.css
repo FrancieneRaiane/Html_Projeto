@@ -80,7 +80,14 @@ td {
 #q1{
     background-color:blue;
     border-radius: 50%; /* agora é um circulo*/
-    margin-right:12px
+    margin-right:12px;
+    cursor: pointer;
+    transition: background-image 0.5s;
+}
+/* efeito de quando passa mouse no circulo*/
+#q1:hover{
+    background-image: url(img1.png);
+    background-size: cover;
 }
 #q2{
     background-color: rgb(255, 0, 221);
@@ -111,5 +118,7 @@ td {
         transform: translateX(400px);
     }
 }
-
+#ad{
+    width: 500px;
+}
 
