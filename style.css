@@ -115,7 +115,7 @@ td {
         transform: translateX(-100px);
     }
     100%{
-        transform: translateX(400px);
+        transform: translateX(900px);
     }
 }
 #ad{
