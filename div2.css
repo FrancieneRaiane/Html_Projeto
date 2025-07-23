@@ -16,8 +16,14 @@ body, html{
     border: solid black 1px;
     border-radius: 3px;
     box-shadow: 0 0 10px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pinter;
 }
-
+.quadrado:hover{
+    transform: scale(1.5);
+}
 .container{
     display: flex;
     gap:40px;
