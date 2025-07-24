@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{
+    color: blue;
+}
 body, html{
     height: 100%;
     display: flex;
@@ -19,7 +22,7 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pinter;
+    cursor: pointer;
 }
 .quadrado:hover{
     transform: scale(1.5);
